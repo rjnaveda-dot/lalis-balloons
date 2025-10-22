@@ -1,5 +1,5 @@
 {
-  "name": "lalis-balloons-v3",
+  "name": "lalis-balloons-v4",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,13 +10,16 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^12.2.0",
-    "i18next": "^23.0.1",
+    "yet-another-react-lightbox": "^3.20.0",
     "framer-motion": "^10.12.16",
-    "react-image-lightbox": "^5.1.4",
-    "swiper": "^10.2.0"
+    "i18next": "^23.10.1",
+    "react-i18next": "^13.5.0"
   },
   "devDependencies": {
-    "vite": "^5.0.0"
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.1.4",
+    "tailwindcss": "^3.4.13",
+    "postcss": "^8.4.21",
+    "autoprefixer": "^10.4.14"
   }
 }
